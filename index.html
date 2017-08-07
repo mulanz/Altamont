@@ -14,24 +14,27 @@ body {font-size:16px;}
 <body>
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-green w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container">
     <h3 class="w3-padding-64"><b>Altamont<br></b></h3>
   </div>
   <div class="w3-bar-block">
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <!--<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About</a> -->
     <a href="#resources" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Resources</a> 
-    <a href="#greenTeam_form" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Green Team Form</a> 
-    <a href="#best_Practices" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Best Practices</a> 
-    <a href="#featured_Projects" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Featured Projects</a> 
+    <a href="#gtf" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Green Team Form</a> 
+    <a href="#bp" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Best Practices</a> 
+    <a href="#fp" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Featured Projects</a> 
+    <a href="#rb" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Recommended Brands</a> 
+    <a href="#epp" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">EPP</a> 
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
   </div>
 </nav>
 
 <!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
-  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+<header class="w3-container w3-top w3-hide-large w3-green w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-green w3-margin-right" onclick="w3_open()">☰</a>
   <span>Altamont</span>
 </header>
 
@@ -42,68 +45,37 @@ body {font-size:16px;}
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
   <!-- Header -->
-  <div class="w3-container" style="margin-top:80px" id="resources">
-    <h1 class="w3-jumbo"><b>Interior Design</b></h1>
-    <h1 class="w3-xxxlarge w3-text-red"><b>Resources.</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
-  </div>
-  
-  <!-- Photo grid (modal) -->
-  <div class="w3-row-padding">
-    <div class="w3-half">
-      <img src="/w3images/kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
-      <img src="/w3images/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
-      <img src="/w3images/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
-    </div>
-
-    <div class="w3-half">
-      <img src="/w3images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
-      <img src="/w3images/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
-      <img src="/w3images/livingroom2.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
-    </div>
-  </div>
-
-  <!-- Modal for full size images on click-->
-  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
-    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-      <img id="img01" class="w3-image">
-      <p id="caption"></p>
-    </div>
-  </div>
-
-  <!-- Green Team Form and Mandate -->
-  <div class="w3-container" id="greenTeam_form" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Green Team Form.</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
-    <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  <div class="w3-container" style="margin-top:80px" id="about">
+    <h1 class="w3-jumbo"><b>Altamont Advisory Board</b></h1>
+    <h1 class="w3-xxxlarge w3-text-green"><b>About.</b></h1>
+    <hr style="width:50px;border:5px solid green" class="w3-round">
+    <p>The Altamont Landfill Settlement Agreement created the Altamont Education Advisory Board to propose allocation of funds in the Education Account for diversion education programs, job training in the field of waste diversion and recycling and mitigating the impacts of the landfill operations on the affected neighboring community. Funds generated from the $0.34 per ton surcharge originating from the Altamont Landfill are expected to amount to approximately $500,000 annually. This per ton surcharge fee will be increased based on the consumer price index effective January 1, 2017. Additional funds are also being generated from the implementation of the tipping fee surcharge at the Vasco Road Landfill owned by Republic Services Inc.
     </p>
-  </div>
-  
-  <!-- Best Practices -->
-  <div class="w3-container" id="best_Practices" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Best Practices.</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>The best team in the world.</p>
-    <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <p>The Altamont Landfill accepts material for disposal from Alameda County jurisdictions, and from the city of San Ramon. Funding programs in diversion education and job training in waste diversion and recycling throughout the landfill service area will preserve the life of the landfill and save resources.
     </p>
-    <p><b>Our designers are thoughtfully chosen</b>:</p>
-  </div>
+    <p><a href = "C:/Users/Milan/Documents/Altamont/2016AnnualReport.pdf">2016 Annual Report</a>
+    </p>
+    <p><a href = "C:/Users/Milan/Documents/Altamont/2017ExpenditurePlan.pdf">2017 Expenditure Plan</a>
+    </p>
+    </div>
+    <div><p><b>Target Sectors</b>:</p>
+    <p>
+      <ul>-Environmental education programs that serve schools</ul>
+      <ul>-Non-formal environmental education programs, serving students K-12</ul>
+      <ul>-Community-based environmental education programs</ul>
+      <ul>-Job training programs in the field of waste diversion and recycling</ul></p></div>
+  
 
-  <!-- The Team -->
+  <!-- Board Members -->
+  <p><b>Board Members</b>:</p>
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
         <img src="/w3images/team2.jpg" alt="John" style="width:100%">
         <div class="w3-container">
-          <h3>John Doe</h3>
-          <p class="w3-opacity">CEO & Founder</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <h3>Ruth Abbe</h3>
+          <p class="w3-opacity">Board Chair, NCRA</p>
+          <p></p>
         </div>
       </div>
     </div>
@@ -111,9 +83,44 @@ body {font-size:16px;}
       <div class="w3-light-grey">
         <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
         <div class="w3-container">
-          <h3>Jane Doe</h3>
-          <p class="w3-opacity">Designer</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <h3>Fenna Gatty</h3>
+          <p class="w3-opacity">City of Livermore</p>
+          <p>Fenna teaches STEAM at Altamont Creek Elementary. She's passionate about reducing waste, and started her school's cafeteria food waste program. She also worked with the community to develop an outdoor garden for her students.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="C:/Users/Milan/Documents/Altamont/Tony-Dennis.jpg" alt="Tony Dennis" style="width:100%">
+        <div class="w3-container">
+          <h3>Tony Dennis</h3>
+          <p class="w3-opacity">City of Pleasanton</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Board Members -->
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Donna Cabanne</h3>
+          <p class="w3-opacity">NCRA</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Toni Stein</h3>
+          <p class="w3-opacity">Alameda County Recycling Board</p>
+          <p></p>
         </div>
       </div>
     </div>
@@ -121,21 +128,117 @@ body {font-size:16px;}
       <div class="w3-light-grey">
         <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
         <div class="w3-container">
-          <h3>Mike Ross</h3>
-          <p class="w3-opacity">Architect</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <h3>Lauren Arnerich</h3>
+          <p class="w3-opacity">Board Assistant</p>
+          <p></p>
         </div>
       </div>
     </div>
   </div>
+  
 
-  <!-- Featured Projects -->
-  <div class="w3-container" id="featured_Projects" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Featured Projects.</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+  <!-- Resources -->
+  <div class="w3-container" id="resources" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-green"><b>Resources.</b></h1>
+    <hr style="width:50px;border:5px solid green" class="w3-round">
+  
+    <!-- Resources -->
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h3>Teachers</h3>
+           <p class="w3-opacity"><a href = "C:/Users/Milan/Documents/Altamont/greenSchoolsChallenge.pdf">Green Schools Challenge</a></p>
+           <p class="w3-opacity"><a href = "C:/Users/Milan/Documents/Altamont/teachingGuide.pdf">Kindergarten Kit - Teaching Manual</a></p>
+           <p class="w3-opacity"><a href = "C:/Users/Milan/Documents/Altamont/recyclingGuideEng.pdf">Class Recycling Guide (English)</a></p>
+          <p></p>
+          <p class="w3-opacity"><a href = "C:/Users/Milan/Documents/Altamont/recyclingGuideSpan.pdf">Class Recycling Guide (Spanish)</a></p>
+          <p class="w3-opacity"><a href = "C:/Users/Milan/Documents/Altamont/RecyclingCertificate.pdf">Recycling Certificate</a></p>
+          <p class="w3-opacity"><a href = "C:\Users\Milan\Documents\Altamont\elementarySongs.html">Elementary Songs</a></p>
+           <p class="w3-opacity"><a href = "C:\Users\Milan\Documents\Altamont\games.html">Kindergarten Games</a></p>
+           <p class="w3-opacity"><a href = "C:\Users\Milan\Documents\Altamont\teacherPosters.html">Classroom Posters</a></p>
+           <p class="w3-opacity"><a href = "C:/Users/Milan/Documents/Altamont/party.pdf">Waste Free Party Guide</a></p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h3>Custodian</h3>
+          <p class="w3-opacity"><a href = "C:\Users\Milan\Documents\Altamont\custodianPosters">Posters</a></p>
+          <p></p>
+          <p class="w3-opacity">Guides</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h3>Admin</h3>
+          <p class="w3-opacity">filler</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Resources -->
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h3>Parents</h3>
+          <p class="w3-opacity"><a href = "C:\Users\Milan\Documents\Altamont\games.html">Kindergarten Games</a></p>
+          <p class="w3-opacity"><a href = "C:\Users\Milan\Documents\Altamont\elementarySongs.html">Elementary Songs</a></p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h3>Students</h3>
+          <p class="w3-opacity"><a href = "C:\Users\Milan\Documents\Altamont\games.html">Kindergarten Games</a></p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h3>Success Stories</h3>
+          <p class="w3-opacity">filler</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <!-- Green Team Form -->
+  <div class="w3-container" id="gtf" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-green"><b>Green Team Form.</b></h1>
+    <hr style="width:50px;border:5px solid green" class="w3-round">
   </div>
 
+  
+
+  <!-- Best Practices / Pricing Tables -->
+  <div class="w3-container" id="bp" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-green"><b>Best Practices.</b></h1>
+    <hr style="width:50px;border:5px solid green" class="w3-round">
+    <p></p>
+
+    <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <a href = "C:/Users/Milan/Documents/Altamont/AlamedaBestPractices.pdf">Best Practices Checklist</a>
+      
+  </div>
+  </div>
+<!-- Table
   <div class="w3-row-padding">
     <div class="w3-half w3-margin-bottom">
       <ul class="w3-ul w3-light-grey w3-center">
@@ -152,7 +255,7 @@ body {font-size:16px;}
         <li class="w3-light-grey w3-padding-24">
           <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
         </li>
-      </ul>
+      </ul> 
     </div>
         
     <div class="w3-half">
@@ -173,12 +276,33 @@ body {font-size:16px;}
       </ul>
     </div>
   </div>
+
+   <!-- Featured Projects -->
+  <div class="w3-container" id="fp" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-green"><b>Featured Projects.</b></h1>
+    <hr style="width:50px;border:5px solid green" class="w3-round">
+    <p></p>
+  </div>
+
+   <!-- Recommended Brands -->
+  <div class="w3-container" id="rb" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-green"><b>Recommended Brands.</b></h1>
+    <hr style="width:50px;border:5px solid green" class="w3-round">
+    <p></p>
+  </div>
+
+   <!-- EPP -->
+  <div class="w3-container" id="epp" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-green"><b>EPP.</b></h1>
+    <hr style="width:50px;border:5px solid green" class="w3-round">
+    <p></p>
+  </div>
   
   <!-- Contact -->
   <div class="w3-container" id="contact" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
+    <h1 class="w3-xxxlarge w3-text-green"><b>Contact.</b></h1>
+    <hr style="width:50px;border:5px solid green" class="w3-round">
+    <p>Feel free to ask any questions.</p>
     <form action="/action_page.php" target="_blank">
       <div class="w3-section">
         <label>Name</label>
@@ -192,7 +316,7 @@ body {font-size:16px;}
         <label>Message</label>
         <input class="w3-input w3-border" type="text" name="Message" required>
       </div>
-      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-green w3-margin-bottom">Send Message</button>
     </form>  
   </div>
 
